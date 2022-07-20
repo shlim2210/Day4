@@ -1,0 +1,29 @@
+Thymeleaf(타임리프)
+- https://www.thymeleaf.org/
+- spring boot에서 제공하는 템플릿 엔진
+- MVC 패턴에서 View를 담당
+
+템플릿 엔진
+- 지정된 템플릿 양식과 데이터가 합쳐져 html 문서를 출력하는 소프트웨어
+- 서버 템플릿 엔진
+    1. velocity : 스프링부터에서는 권장하지 않는 템플릿 엔진
+    2. freemarker : 템플릿 엔진으로 많은 기능을 지원, Apache 템플릿 엔진, 템플릿 및 변경 데이터를 기반으로 텍스트, 메일, 파일 생성하는 Java 라이브러리 제공
+    3. thymeleaf : 스프링에서 적극 지원하고 있는 템플릿 엔진, 문법이 쉽지 않음, react, vue의 경험이 있다면 thymeleaf를 추천
+
+resources
+- static : css, js 파일
+- templates : html 파일
+
+
+클라이언트 데이터 처리 방법
+1. ajax
+2. axios 라이브러리
+3. fetch
+
+받아온 객체를 클라이언트에 적용하는 방법
+1. dom
+2. angular, react, vue
+
+vue
+- https://kr.vuejs.org/v2/guide/index.html
+
